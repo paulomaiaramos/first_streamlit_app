@@ -50,7 +50,7 @@ streamlit.header("The fruit load list contains:")
 #        return my_cur.fetchall()
 
 submit = streamlit.button('Get Fruit Load List')
-If submit:
+if submit:
 #    my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 #    my_data_rows = get_fruit_load_list()
 #    streamlit.dataframe(my_data_rows)
